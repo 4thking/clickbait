@@ -1,0 +1,8 @@
+---
+content_path: 
+partials: {}
+index_path: index.html
+stylesheet_dir: app/assets/stylesheets
+image_dir: rumors/img
+javascript_dir: app/assets/javascripts
+no_sass: false
