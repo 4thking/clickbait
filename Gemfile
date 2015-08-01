@@ -17,13 +17,12 @@ gem "fog"
 gem 'devise'
 gem 'mini_magick'
 gem 'friendly_id', '~> 5.1.0'
-gem 'pg', group: :production
-gem 'rails_12factor', group: :production
-
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-
-
+group :production, :staging do
+      gem 'pg'
+      gem 'rails_12factor'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
