@@ -1387,10 +1387,11 @@ input[type="submit"].btn.btn-mini {
 	-webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-}
+
 -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
+}
 
 .alert-block > p,
 .alert-block > ul {
