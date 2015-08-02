@@ -4,13 +4,14 @@
   <title>Clickbait</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag "styles.scss.css" %>
+  <%= stylesheet_link_tag "bootstrap.scss.css" %>
   
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<link href="assets/styles.scss" rel="stylesheet" type="text/css" />
-<link href="assets/bootstrap.scss" rel="stylesheet" type="text/css" />
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 
 <%= render 'layouts/facebook' %>
 
